@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import photo from './assests/photos.jpg';
 
+import Hero from './components/Hero';
 import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
@@ -10,7 +10,7 @@ import Contact from './components/Contact';
 function App() {
   return (
     <div className="App">
-      {/* Top-Right Navigation */}
+      {/* Navigation */}
       <nav className="navbar">
         <ul>
           <li><a href="#hero">Home</a></li>
@@ -21,20 +21,8 @@ function App() {
         </ul>
       </nav>
 
-      {/* Hero Section */}
-      <section id="hero">
-        <div className="hero-content">
-          <div className="hero-text">
-            <h1>Hi, I'm Aditi Patnaik</h1>
-            <p>An electrical student at Silicon</p>
-          </div>
-          <div className="hero-image">
-            <img src={photo} alt="Aditi" />
-          </div>
-        </div>
-      </section>
-
-      {/* Content Components Only (No Duplicate Headings) */}
+      {/* Sections */}
+      <Hero />
       <About />
       <Skills />
       <Projects />
