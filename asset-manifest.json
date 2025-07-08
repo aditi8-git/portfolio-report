@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/aditi8-git/portfolio-report/static/css/main.702e3571.css",
+    "main.js": "/aditi8-git/portfolio-report/static/js/main.5a9e6d66.js",
+    "static/media/photos.jpg": "/aditi8-git/portfolio-report/static/media/photos.5796c8ae12049016d93e.jpg",
+    "index.html": "/aditi8-git/portfolio-report/index.html",
+    "main.702e3571.css.map": "/aditi8-git/portfolio-report/static/css/main.702e3571.css.map",
+    "main.5a9e6d66.js.map": "/aditi8-git/portfolio-report/static/js/main.5a9e6d66.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.702e3571.css",
+    "static/js/main.5a9e6d66.js"
+  ]
+}
